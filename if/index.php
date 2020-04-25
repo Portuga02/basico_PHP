@@ -1,0 +1,2 @@
+<?php
+/*EXEMPLOS DE IF ELSE*/
