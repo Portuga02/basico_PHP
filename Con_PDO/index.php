@@ -3,11 +3,11 @@
 /** TIPO DE CONEXÃO SIMPLES PARA CONEXÃO DE DADOS  COM O PDO */
 
 
-$dsn = 'mysql:host=localhost;dbname=php_com_pdo';
-$usuario = "root";
+$dsn = 'mysql:host=localhost;dbname=php_com_pdo'; /* tipo do drive a ser executado e o local*/
+$usuario = "root"; // conexão local, nome de usuario
 $senha = ""; /*Alterando senha de acordo com o sistma ou servidor que você utiliza*/
 
-$conexao = new PDO($dsn, $usuario, $senha);
+$conexao = new PDO($dsn, $usuario, $senha);  /*CHAMANDO O DRIVE PDO*/
 
 
 /* COLOCANDO ERROS DE ExEÇÃO PDOExcepton*/
