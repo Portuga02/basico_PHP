@@ -12,13 +12,15 @@ try {
     $query = 'SELECT * FROM tb_usuarios';
 
     $statmement = $conexao->query($query);
-    $lista = $statmement->fetchAll(); // retorna todos os registro da consulta selecionado
+    $lista = $statmement->fetchAll( PDO::FETCH_GROUP); // retorna todos os registro da consulta selecionado
 
     echo "<pre>";
     var_dump($lista);
     echo "</pre>";
 
-    
+
 } catch (PDOException $e) { // utilizaado no php 7
     echo 'Error de conexão:  ' . $e->getCode() . 'Messagem :' . $e->getMessage();
 }
+
+// PDO::FETCH_COLUMN   utilizado pra manipular o PDO  e acordo com a necessidade da  pessoa, LEMBRANDO QUE EXISTE VARIOS TIPOSS 
