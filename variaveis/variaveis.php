@@ -5,7 +5,7 @@
 /* O PHP COMO QUALQUER OUTRA LINGUAGEM DE PROGRAMAÇÕ TEM SUAS VARIAVEIS */
 
 
-ECHO "TIPOS DE VARIAVEIS";
+echo "TIPOS DE VARIAVEIS";
 // int, string,boolen, char, array, float
 
 
@@ -20,7 +20,7 @@ ECHO "TIPOS DE VARIAVEIS";
 
 
 
-$nome ='savio gomes da silva';
+$nome = 'savio gomes da silva';
 $idade = 23;
 $fumante_sn = true;
 

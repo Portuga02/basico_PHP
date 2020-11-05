@@ -1,5 +1,2 @@
 <?php
 require 'usuario.php';
-
-
-?>

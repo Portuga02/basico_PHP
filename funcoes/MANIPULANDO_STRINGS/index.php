@@ -1,9 +1,9 @@
 <?php
 //  são funções que trabalham sobre strings para que sejam efetuado tarefas (como as funções)
-$texto = 'Savio gomes da silva';
-strtolower($texto); // Transforma todos os caracteres em minusculos
-strtoupper($texto); //  trasnforma todos os caracteres da string em maiusculo
-ucfirst($texto);  // trasnforma o primeiro caracter da string em maiusculo
-strlen($texto); // conta a quantidade de carateres de uma string
-str_replace('A', 'a', $texto); // substutitu uma cadeia de caracteres por outra dentro de uma string
-substr($texto, '',);  // retorna parte de uma string
+echo  $texto = 'Savio gomes da silva' . '<br>';
+echo strtolower($texto) . '<br>'; // Transforma todos os caracteres em minusculos
+echo strtoupper($texto) . '<br>'; //  trasnforma todos os caracteres da string em maiusculo
+echo ucfirst($texto) . '<br>';  // trasnforma o primeiro caracter da string em maiusculo
+echo strlen($texto) . '<br>'; // conta a quantidade de carateres de uma string
+echo str_replace('A', 'a', $texto) . '<br>'; // substutitu uma cadeia de caracteres por outra dentro de uma string
+// echo substr($texto, '',).'<br>';  // retorna parte de uma string
