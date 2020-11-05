@@ -1,4 +1,5 @@
 <?php
+
 echo "<h1> EXEMPLOS PARA INGREDIENTES </h1>";
 $ingredientes = [
     'feijao',
