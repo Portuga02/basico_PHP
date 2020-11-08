@@ -38,13 +38,13 @@ if (!('a ' == 'b')) {
 } else {
     echo 'esta expressão é Falsa';
 }
- 
+
 
 // ordem de precedencia
 
-if((22 == 22 && 3 == 3 ) || 5 !=5){
+if ((22 == 22 && 3 == 3) || 5 != 5) {
     echo 'Verdadeiro';
-} else{
+} else {
 
     echo 'Falso';
 }
