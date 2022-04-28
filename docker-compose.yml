@@ -1,12 +1,12 @@
 version: "3"
 services: 
-    www:
+    public:
         build: . 
         restart: always
         ports: 
             - '8000:80'
         volumes: 
-            - ./www:/var/www/html/
+            - ./public:/var/public/html/
         networks:
             - default
     db:
