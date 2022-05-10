@@ -38,7 +38,7 @@
             break;
     }
     // segunda forma de se passar um case por string
-    
+
     $parametro = "1";
     switch ($parametro) {
         case "1":
@@ -60,7 +60,7 @@
 
 
     // terceira forma de se passa um valor no case, por variavel, pode-se usar também metoods para que seja feito calculos
-    
+
     $tam = $tam->funcionandoTamy;
     switch ($tam) {
         case ($tam == 1):

@@ -9,12 +9,12 @@ $ingredientes = [
 ];
 
 /*forma simples do foreach  adicionando o valor do array a variavel ingrediente*/
-foreach ( $ingredientes as $ingrediente ) {
+foreach ($ingredientes as $ingrediente) {
 
     echo "Item's  " . $ingrediente . '<br>';
 }
 echo '<pre>';
-var_dump( $ingredientes );
+var_dump($ingredientes);
 echo '</pre>';
 ?>
 
@@ -37,11 +37,11 @@ $dados = [
     'sql-lite'
 ];
 
-foreach ( $dados as $key => $dado ) {
+foreach ($dados as $key => $dado) {
     echo 'Item ' . $key . ':' . $dado . '<br>';
 }
 echo '<pre>';
-var_dump( $dados );
+var_dump($dados);
 echo '</pre>';
 ?>
 
@@ -60,11 +60,11 @@ $SO = [
 *   IMPLEMTENTA O ( +1 ) concatenando com a variavel $key
 
 */
-foreach ( $SO as $key => $listaSO ) {
-    echo 'Item ' . ( $key + 1 ) . ':' . $listaSO . '<br>';
+foreach ($SO as $key => $listaSO) {
+    echo 'Item ' . ($key + 1) . ':' . $listaSO . '<br>';
 }
 echo '<pre>';
-var_dump( $SO );
+var_dump($SO);
 echo '</pre>';
 ?>
 
