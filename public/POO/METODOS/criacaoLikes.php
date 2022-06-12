@@ -18,7 +18,7 @@ class criacaoLikes
     {
 
         echo 'abc';
-        // assim se cira um metodo
+        // assim se cria um metodo
         $this->likes++;
     }
 }

@@ -29,4 +29,3 @@ $post2->setAuthor( 'Gomes' );
 echo 'POST1'.$post1->likes.'likes -'.$post1->getAuthor().'<br>';
 
 echo 'POST2'.$post2->likes.'likes -'.$post1->getAuthor().'<br>';
-?>
