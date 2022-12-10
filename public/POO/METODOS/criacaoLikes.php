@@ -3,9 +3,10 @@
 class criacaoLikes
 {
     //Criação da classe
-
+    // as propriedades são as que são do tipo publica e privada essas coisas
     public $likes = 0;
     /* criação dos metodos da classe */
+
     public $comentarios = [];
     public $author;
 
@@ -14,12 +15,12 @@ class criacaoLikes
         echo 'teste';
     }
 
-    public function aumentarLikes()
+    public function aumentarLikes()   // o nome da função é o metodo propriamente dito
     {
 
         echo 'abc';
-        // assim se cira um metodo
-        $this->likes++;
+       
+        $this->likes++;   // utilizo o this para acessar o meu proprio metodo
     }
 }
 
