@@ -3,7 +3,7 @@ ou seja tem começo meio e fim -->
 
 <?php
 
-for ($numero = 0; $numero < 10; $numero += 1) {
+for ($numero = 0; $numero < 11; $numero += 1) {
 
     echo  "N: " . $numero . "<br>";
 }
