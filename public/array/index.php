@@ -11,6 +11,14 @@ $ingredientes = array(
     'cuscuz'
 
 );
+// forma atual de passar array
+$ingredientes = [
+    'feijao',
+    'carne',
+    'fuba',
+    'cuscuz'
+
+];
 
 print_r($ingredientes);
 ?>
