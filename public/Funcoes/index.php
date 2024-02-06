@@ -27,7 +27,7 @@
         return $area;
     }
     echo '<br>';
-    echo calcularArea(30, 50); // ,quando se chama uma função deve-se passar parametros dentro dela
+    echo calcularArea(30, 50); // quando se chama uma função deve-se passar parametros dentro dela
     echo '<br>';
     echo   calcularArea(30, 22); // posso chamar quantas vezes forem necessário as funções
     echo '<br>';
@@ -35,8 +35,8 @@
     echo $retorno;
 
     /* QUANDO DEVO UTILIZAR OS RETORNOS COM OU SEM VARIAVEL DE RETORNO
-    
-    SEM VARIAVEL DE RETORNO --> 
+
+    SEM VARIAVEL DE RETORNO -->
 
     */
 
