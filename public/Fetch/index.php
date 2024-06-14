@@ -21,5 +21,5 @@ try {
     echo 'Error de conexão:  ' . $e->getCode() . 'Messagem :' . $e->getMessage();
 }
 
-// PDO::FETCH_COLUMN   utilizado pra manipular o PDO  e acordo com a necessidade da  pessoa, LEMBRANDO QUE EXISTE VARIOS TIPOSS 
-// FETCCH --> UTILIZADO PARA RETORNAR APENAS 1 DADO 
+// PDO::FETCH_COLUMN   utilizado pra manipular o PDO  e acordo com a necessidade da  pessoa, LEMBRANDO QUE EXISTE VARIOS TIPOSS
+// FETCCH --> UTILIZADO PARA RETORNAR APENAS 1 DADO
